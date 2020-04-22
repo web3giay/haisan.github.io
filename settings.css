@@ -1,0 +1,58 @@
+a {
+	color: #0e0e0f;
+	text-decoration: none!important;
+}
+a:hover {
+	text-decoration: none!important;
+	color: #111385;
+}
+a.general{
+	color: #1e1e8a!important;
+}
+a.general:hover{
+	color: #1e1e8a!important;
+}
+a.menu{
+	color: #1e1e8a!important;
+}
+a.menu:hover,
+a.menu.active{
+	color: #ffffff!important;
+}
+.title, h1.article,.default-title,.titles{
+	color: #1e1e8a;
+	text-transform: uppercase;
+}
+@media screen and (min-width: 375px) and (max-width: 768px)
+{
+	.titles-blog{
+		height: 120px;
+	}
+}
+@media screen and (max-width: 375px)
+{
+	.titles-blog{
+		height: 155px;
+	}
+}
+@media screen and (min-width: 768px)
+{
+	.tlblogs{
+		position: absolute;
+	}
+	.titles.titles-blog {
+		height: 50px;
+	}
+}
+h1.title {
+	line-height: 21px!important;
+	font-size: 23px;
+	font-weight: 100!important;
+}
+.pagination > .active > a, .pagination > .active > span, .pagination > .active > a:hover, .pagination > .active > span:hover, .pagination > .active > a:focus, .pagination > .active > span:focus {
+	background-color: #0098D1;
+	border: 1px solid #0098D1;
+}
+.navbar-toggle {
+	color: #fff!important;
+}
