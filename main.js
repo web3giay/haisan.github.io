@@ -34,6 +34,7 @@ jQuery(document).ready(function(){
 		pagination : false,
 		navigation : true,
 		autoPlay: 3000,
+		stopOnHover: true,
 		itemsDesktop: [1199, 5],
 		itemsDesktopSmall: [979, 4],
 		itemsTablet: [768,2],
