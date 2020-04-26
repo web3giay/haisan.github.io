@@ -33,6 +33,7 @@ jQuery(document).ready(function(){
 		lazyLoad : true,
 		pagination : false,
 		navigation : true,
+		autoPlay: 3000,
 		itemsDesktop: [1199, 5],
 		itemsDesktopSmall: [979, 4],
 		itemsTablet: [768,2],
