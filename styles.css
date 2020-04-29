@@ -1060,7 +1060,7 @@ img{
 	line-height:30px;
 }
 
-#add-item-form .selector-wrapper{float:left; width:100%; margin-top:10px;}
+.selector-wrapper{float:left; width:100%; margin-top:10px;}
 
 
 #add-item-form .selector-wrapper select, #add-item-form .selector-wrapper #quantity, .product-options select{
@@ -3466,7 +3466,7 @@ span.action_link {
 	left: 0; }
 #quick-view-modal .jsQuickview .quickview-slider .owl-next {
 	right: 0; }
-#add-item-form .product-options .selector-wrapper label{
+ .selector-wrapper label{
 	float: left;
 	margin-top: 10px;
 	margin-bottom: 10px;
