@@ -3363,9 +3363,7 @@ span.action_link {
 #quick-view-modal .jsQuickview .form-input #quantity-quickview {
 	max-width: 60px;
 	padding: 5px 10px; }
-#quick-view-modal .jsQuickview .quickview-variants {
-	margin-bottom: 15px;
-}
+
 #quick-view-modal .jsQuickview .quickview-variants label {
 	display: inline-block;
 	margin-bottom: 5px;
