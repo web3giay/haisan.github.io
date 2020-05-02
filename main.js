@@ -26,12 +26,7 @@ jQuery(document).ready(function(){
 		navigationText : ["<span class='fa fa-angle-left'></span>", "<span class='fa fa-angle-right'></span>"]
 	});
 });
-$('.search-mb').click(function(){
-	$('.block_search_mb').slideToggle();
-});
-$('.search-input-label').click(function(){
-	$('.block_search_mb').slideUp();
-})
+
 
 
 
