@@ -28,10 +28,5 @@ jQuery(document).ready(function(){
 });
 
 
-$('.search-mb').click(function(event){
-		$('.block_search_mb').slideToggle();
-	});
-	$('.search-input-label').click(function(event){
-	$('.block_search_mb').slideUp();
-})
+
 
