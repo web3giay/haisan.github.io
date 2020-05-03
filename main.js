@@ -3,8 +3,9 @@
 jQuery(document).ready(function(){
 	$("#owl-demo").owlCarousel({
 		items : 5,
+		loop:true,
 		lazyLoad : true,
-		autoPlay:3000,
+		autoPlay:true,
 		pagination : false,
 		navigation : true,
 		itemsDesktop: [1199, 5],
@@ -17,17 +18,19 @@ jQuery(document).ready(function(){
 
 	$("#owl-slider").owlCarousel({
 		navigation : true, // Show next and prev buttons
+		loop:true,
 		paginationSpeed : 400,
 		pagination : true,
 		singleItem:true,
 		stopOnHover: true,
 		transitionStyle : "fade",
-		autoPlay: 5000,
+		autoPlay: true,
 		navigationText : ["<span class='fa fa-angle-left'></span>", "<span class='fa fa-angle-right'></span>"]
 	});
 	$(".thumb").owlCarousel({
 		navigation : true, // Show next and prev buttons
-		autoPlay:3000,
+		loop:true,
+		autoPlay:true,
 		paginationSpeed : 400,
 		pagination : false,
 		stopOnHover: true,
