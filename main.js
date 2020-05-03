@@ -4,6 +4,7 @@ jQuery(document).ready(function(){
 	$("#owl-demo").owlCarousel({
 		items : 5,
 		lazyLoad : true,
+		autoPlay:3000,
 		pagination : false,
 		navigation : true,
 		itemsDesktop: [1199, 5],
@@ -26,6 +27,7 @@ jQuery(document).ready(function(){
 	});
 	$(".thumb").owlCarousel({
 		navigation : true, // Show next and prev buttons
+		autoPlay:3000,
 		paginationSpeed : 400,
 		pagination : false,
 		stopOnHover: true,
